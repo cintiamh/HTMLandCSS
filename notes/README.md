@@ -69,6 +69,17 @@ This tag will show the text in bold. No meaning associated with its content.
 
 This tag will show the text in italic.
 
-### Superscrpt and Subscript
+### Superscript and Subscript
 
+#### `<sup>`
 
+The `<sup>` element is used to contain characters that should be superscript.
+
+#### `<sub>`
+
+The `<sub>` element is used to contain characters that should be subscript.
+
+```html
+<p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.</p>
+<p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>
+```
