@@ -43,43 +43,6 @@ The head comes before body. The head contains information about the page.
 
 The title can be found inside the head and its contents are shown in the top of the browser.
 
-## Text
+## Other HTML topics
 
-Adding markup to the text that appears on your page.
-
-### Headings
-
-#### `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
-
-HTML has 6 levels of headings. `<h1>` is used for main headings, it will usually be bigger.
-
-### Paragraphs
-
-#### `<p>`
-
-By default, the browser will show each paragraph on a new line with some space around.
-
-### Bold and Italic
-
-#### `<b>`
-
-This tag will show the text in bold. No meaning associated with its content.
-
-#### `<i>`
-
-This tag will show the text in italic.
-
-### Superscript and Subscript
-
-#### `<sup>`
-
-The `<sup>` element is used to contain characters that should be superscript.
-
-#### `<sub>`
-
-The `<sub>` element is used to contain characters that should be subscript.
-
-```html
-<p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.</p>
-<p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>
-```
+* [Text](Text.md)
