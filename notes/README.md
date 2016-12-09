@@ -45,4 +45,5 @@ The title can be found inside the head and its contents are shown in the top of 
 
 ## Other HTML topics
 
-* [Text](Text.md)
+* [Text](01_Text.md)
+* [Lists](02_Lists.md)
