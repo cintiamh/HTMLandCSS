@@ -47,3 +47,5 @@ The title can be found inside the head and its contents are shown in the top of 
 
 * [Text](01_Text.md)
 * [Lists](02_Lists.md)
+* [Links](04_Links.md)
+* [Images](05_Images.md)
