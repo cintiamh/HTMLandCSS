@@ -154,3 +154,6 @@ Adds caption to an image.
     <figcaption>This is just an image with Hello Kitty.</figcaption>
 </figure>
 ```
+
+Older browsers that do not understand HTML5 elements simply ignore the new elements and 
+display the content of them.
