@@ -95,4 +95,62 @@ flat color.
 
 ## Image dimensions
 
+It's ok to reduce the image size, but increasing the size of photos affects the image
+quality.
 
+## Cropping images
+
+Cropping images can make you loose valuable information.
+
+## Image resolution
+
+Desired resolution: 72 ppi.
+
+JPGs, GIFs, and PNGs have bitmap format.
+
+## Vector images
+
+Vector images differ from bitmap images and are resolution-independent.
+
+Tool: Adobe Illustrator.
+
+Scalable Vector Graphics (SVG) are a relatively new format used to display vector images
+directly on the web.
+
+## Animated GIFs
+
+Animated GIFs show several frames of an image in sequence and therefore can be used to
+create simple animations.
+
+Tool: Adobe Photoshop, some online tools.
+
+## Transparency
+
+### Transparent GIF
+
+For images with straight edges and 100% transparent.
+
+### PNG
+
+For images with diagonal or rounded edges, or semi-opaque transparency, or drop shadow.
+
+## HTML5: Figure and Figure Caption
+
+### `<figure>`
+
+HTML5 introduced the `<figure>` element to contain images and their caption so that the
+two are associated.
+
+You can have more than one image inside the `<figure>` element as long as they all 
+share the same caption.
+
+### `<figcaption>`
+
+Adds caption to an image.
+
+```html
+<figure>
+    <img src="http://static.tvtropes.org/pmwiki/pub/images/Hello_Kitty_Pink_2981.jpg" alt="Hello Kitty">
+    <figcaption>This is just an image with Hello Kitty.</figcaption>
+</figure>
+```
