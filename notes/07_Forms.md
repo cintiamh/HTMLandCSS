@@ -101,3 +101,46 @@ This attribute will adjust the input width to accommodate the specified number o
 ```html
 Password: <input type="password" name="username" size="15" maxlength="30" />
 ```
+
+## Text Area
+
+### `<textarea>` element
+
+The text area creates a multi-line text input. This is not an empty element, it needs a opening and a closing tag.
+
+Any text in between the opening and closing tags will appear in the text box when the page loads.
+
+You might find older code that uses `cols` and `rows` attributes to define the `textarea`'s width and height. You
+should prefer to do it with CSS.
+
+### `name` attribute
+
+The name attribute will used to identify the form control when the information is sent to the server with its value.
+
+```html
+Some comments:
+<textarea name="comments" cols="20" rows="4">
+    Enter your comments...
+</textarea>
+```
+
+## Radio Button
+
+### `<input type="radio">` element
+
+Use the `<input>` element with the `type` attribute set to `radio`. Radio buttons allows users to pick just one of a 
+number of options.
+
+### `name` attribute
+
+The `name` attribute will used to identify the form control when the information is sent to the server with its value.
+When you have multiple options for a specific question, you should set the same `name` for all options.
+
+### `value` attribute
+
+The value that is sent to the server in case the field in question is checked.
+
+### `checked` attribute
+
+You can force one of the options to be set before the user chooses, like the default value. Once one option in a radio
+button group is selected, there is no way to unselect it. There is always one option selected.
