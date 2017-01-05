@@ -144,3 +144,10 @@ The value that is sent to the server in case the field in question is checked.
 
 You can force one of the options to be set before the user chooses, like the default value. Once one option in a radio
 button group is selected, there is no way to unselect it. There is always one option selected.
+
+```html
+Favorite Genre:
+<input type="radio" name="genre" value="rock" checked="checked" /> Rock
+<input type="radio" name="genre" value="pop" checked="checked" /> Pop
+<input type="radio" name="genre" value="jazz" checked="checked" /> Jazz
+```
