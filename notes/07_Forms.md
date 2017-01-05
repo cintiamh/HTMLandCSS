@@ -58,3 +58,46 @@ The `id` attribute is important in forms to identify it inside the page, for inp
 ```
 
 ## Text input
+
+### `<input type="text">` element
+
+Use the `<input>` element with the `type` set to `text`.
+
+### `name` attribute
+
+The name attribute will used to identify the form control when the information is sent to the server with its value.
+
+### `maxlength` attribute
+
+This will limit the number of characters a user may enter into the text field.
+
+### `size` attribute (deprecated)
+
+This attribute will adjust the input width to accommodate the specified number of characters. You should use CSS instead.
+
+```html
+Username: <input type="text" name="username" size="15" maxlength="30" />
+```
+
+## Password input
+
+### `<input type="password>` element
+
+Use the `<input>` element with the `type` set to `password`. This will show blocked characters instead of what the user 
+is actually typing.
+
+### `name` attribute
+
+The name attribute will used to identify the form control when the information is sent to the server with its value.
+
+### `maxlength` attribute
+
+This will limit the number of characters a user may enter into the field.
+
+### `size` attribute (deprecated)
+
+This attribute will adjust the input width to accommodate the specified number of characters. You should use CSS instead.
+
+```html
+Password: <input type="password" name="username" size="15" maxlength="30" />
+```
