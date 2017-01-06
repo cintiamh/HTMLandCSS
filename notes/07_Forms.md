@@ -151,3 +151,64 @@ Favorite Genre:
 <input type="radio" name="genre" value="pop" checked="checked" /> Pop
 <input type="radio" name="genre" value="jazz" checked="checked" /> Jazz
 ```
+
+## Checkbox
+
+### `<input type="checkbox">` element
+
+Use the `<input>` element with the `type` attribute set to `checkbox`. You can choose multiple or none of the options 
+with checkbox.
+
+### `name` attribute
+
+The `name` attribute will used to identify the form control when the information is sent to the server with its value.
+When you have multiple options for a specific question, you should set the same `name` for all options.
+
+### `value` attribute
+
+The value that is sent to the server in case the field in question is checked.
+
+### `checked` attribute
+
+This will show the box checked when the page loads.
+
+```html
+Favorite music services:
+<input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+<input type="checkbox" name="service" value="lastfm" /> Last.fm
+<input type="checkbox" name="service" value="spotify" /> Spotify
+```
+
+## Drop down list box
+
+### `<select>` element
+
+The `<select>` element is used to create a drop down list box containing two or more `<option>` elements.
+
+### `name` attribute
+
+The `name` attribute will used to identify the form control when the information is sent to the server with its value.
+
+### `<option>` element
+
+The `<option>` element is used to specify the options to select from. The string between the open and close tags will 
+be shown.
+
+### `value` attribute
+
+The `value` attribute associated with the `<option>` tag. The `value` is sent to the server associated with the 
+`<select>` 's `name`.
+
+### `selected` attribute
+
+The `selected` attribute set to `selected` string can be used in the `<option>` tag that should be selected when the 
+page loads. If no `<option>` is set to `selected`, the first option is set by default.
+
+```html
+What device do you use to listen to music?
+<select name="devices">
+    <option value="ipod">iPod</option>
+    <option value="radio">Radio</option>
+    <option value="computer" selected="selected">Computer</option>
+</select>
+```
